@@ -29,6 +29,7 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(GLFW_INSTALL OFF CACHE BOOL "" FORCE)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(thirdparty/glfw-3.3.2)			#window oppener
 add_subdirectory(thirdparty/glad)				#opengl loader
